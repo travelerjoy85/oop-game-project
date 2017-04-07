@@ -1,12 +1,46 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Exploding Kittens</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Exploding Kittens</title>
+   <style>
+   body {
+       background-image:url("http://www.imgbase.info/images/safe-wallpapers/miscellaneous/8_bit/60546_8_bit_8_bit_landscape.jpg")
+   }
+       
+       .btn {
+             background: #34d94d ;
+             background-image: -webkit-linear-gradient(top, #34d94d , #ed47c6 );
+             background-image: -moz-linear-gradient(top, #34d94d , #ed47c6 );
+             background-image: -ms-linear-gradient(top, #34d94d , #ed47c6 );
+             background-image: -o-linear-gradient(top, #34d94d , #ed47c6 );
+             background-image: linear-gradient(to bottom, #34d94d , #ed47c6 );
+             -webkit-border-radius: 60;
+             -moz-border-radius: 60;
+             border-radius: 60px;
+             text-shadow: 0px 1px 3px #666666 ;
+             font-family: Courier New;
+             color: #00090d ;
+             font-size: 50px;
+             padding: 10px 20px 10px 20px;
+             text-decoration: none;
+           }
+           
+           .btn:hover {
+             background: #ffd500 ;
+             background-image: -webkit-linear-gradient(top, #ffd500 , #63d934 );
+             background-image: -moz-linear-gradient(top, #ffd500 , #63d934 );
+             background-image: -ms-linear-gradient(top, #ffd500 , #63d934 );
+             background-image: -o-linear-gradient(top, #ffd500 , #63d934 );
+             background-image: linear-gradient(to bottom, #ffd500 , #63d934 );
+             text-decoration: none;
+           }
+   </style>
 </head>
 <body>
-    <div id="app"></div>
-    <script src="js/kittens.js"></script>
+    <center><button class="btn" id="start">New Game</button></center>
+   <center><div id="app"></div></center>
+   <script src="js/kittens.js"></script>
 </body>
 </html>
